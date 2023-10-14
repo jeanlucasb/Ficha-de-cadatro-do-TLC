@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* ESTILOS GERAIS PARA O CORPO DA PÁGINA */
+body{
+    /* text-align: center; */
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(244, 202, 244);
+
+}
+
+/* ESTILOS PARA O CABEÇALHO  */
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 24px
+}
+
+/* ESTILOS PARA O FORMULÁRIO  */
+div{
+     background-color: #f9e8f7;
+    padding:20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    /* background: linear-gradient(45deg, rgb(227, 153, 213), rgb(226, 184, 234)); */
+
+    
+
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+   
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    height: 20px;
+    padding: 10px ;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CHECKBOXES */
+input[type="checkbox"],
+input[type="radio"]{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* SELECTS */
+select{
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/* LISTAS */
+ul{
+    padding: 0;
+}
+
+li{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.linha-pontilhada {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #000 30%, transparent 10%, transparent 20%);
+    background-size: 10px 5px; /* Ajuste o tamanho e a cor conforme necessário */
+  }
+  
+
+/* Estilos específicos para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduz o preenchimento */
+        max-width: 100%; /* Preenche a largura da tela */
+    }
+
+    h1 {
+        font-size: 30px; /* Reduz o tamanho da fonte */
+    }
+
+    h2 {
+        font-size: 16px; /* Reduz o tamanho da fonte */
+    }
+
+    h3 {
+        font-size: 20px; /* Reduz o tamanho da fonte */
+    }
+
+    div {
+        padding: 10px; /* Reduz o preenchimento */
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="number"] {
+        height: 18px; /* Reduz a altura do input */
+    }
+
+    /* Adicione mais estilos específicos para dispositivos móveis conforme necessário */
+}
+
+
+
+
+    
